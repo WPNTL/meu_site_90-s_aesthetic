@@ -16,7 +16,7 @@ function Taskbar() {
         <TaskBar
             list={
                 <List>
-                    <List.Item className="pointer" icon="brush">
+                    <List.Item className="pointer" icon="install">
                         <Link href={react95Repo} target="_blank">Built with React95</Link>
                     </List.Item>
                     <List.Divider />
