@@ -1,18 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function About({ content }) {
-    const { paragraphs } = content;
-    return (
-        <div>
-            <h2>Sobre</h2>
-            {
-                paragraphs.map((p, i) => (
-                    <p key={i}>{p}</p>
-                ))
-            }
-
-        </div>
-    )
+  const { paragraphs } = content;
+  return (
+    <div>
+      <h2>Sobre</h2>
+      {paragraphs.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  );
 }
 
-export default About
+export default About;
