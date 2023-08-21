@@ -1,6 +1,6 @@
-import React from 'react';
-import { Button } from '@react95/core';
-import styled from 'styled-components';
+import React from "react";
+import { Button } from "@react95/core";
+import styled from "styled-components";
 
 const StyledLink = styled.a`
   margin-bottom: 10px;
@@ -42,7 +42,7 @@ function Resume({ content }) {
         </div>
       ))}
       <StyledLink href={resumeLink} download>
-        <Button style={{ fontSize: '14px' }} className="pointer">
+        <Button style={{ fontSize: "14px" }} className="pointer">
           Download Currículo
         </Button>
       </StyledLink>
