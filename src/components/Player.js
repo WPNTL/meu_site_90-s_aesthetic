@@ -1,16 +1,14 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const Wrapper = styled.div`
-    position: absolute;
-    top: 20%;
-    left: 10%;
-`
+  position: absolute;
+  top: 20%;
+  left: 10%;
+`;
 
 function Player() {
-    return (
-        <Wrapper id="winamp-container"></Wrapper>
-    )
+  return <Wrapper id="winamp-container"></Wrapper>;
 }
 
-export default Player
+export default Player;

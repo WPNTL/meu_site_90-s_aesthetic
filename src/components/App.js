@@ -1,10 +1,10 @@
-import React from 'react';
-import { GlobalStyle, ThemeProvider } from '@react95/core';
-import { createGlobalStyle } from 'styled-components';
-import DataService from '../services/dataService';
-import DataContext from '../contexts/dataContext';
-import Taskbar from './Taskbar';
-import Desktop from './Desktop';
+import React from "react";
+import { GlobalStyle, ThemeProvider } from "@react95/core";
+import { createGlobalStyle } from "styled-components";
+import DataService from "../services/dataService";
+import DataContext from "../contexts/dataContext";
+import Taskbar from "./Taskbar";
+import Desktop from "./Desktop";
 
 const dataService = new DataService();
 
